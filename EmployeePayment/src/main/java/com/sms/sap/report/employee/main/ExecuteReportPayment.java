@@ -56,7 +56,7 @@ public class ExecuteReportPayment {
 	  
 	public static void main(String[] args) {
 		
-		final String dateClearingDateParameter = "2016-04-01";
+		final String dateClearingDateParameter = "2016-11-18";
 		
 		
 		 DAOFactory javabase = DAOFactory.getInstance("accounting.jdbc");
