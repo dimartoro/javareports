@@ -56,7 +56,7 @@ public class ExecuteReportPayment {
 	  
 	public static void main(String[] args) {
 		
-		final String dateClearingDateParameter = "2016-11-18";
+		final String dateClearingDateParameter = "2017-01-06";
 		
 		
 		 DAOFactory javabase = DAOFactory.getInstance("accounting.jdbc");
@@ -356,7 +356,7 @@ public class ExecuteReportPayment {
 		
 		
 		
-		Set<String> hs = new HashSet<>();
+		Set<String> hs = new HashSet<String>();
 		hs.addAll(lstVendors);
 		
 		lstVendors.clear();
@@ -382,7 +382,7 @@ public class ExecuteReportPayment {
 		
 		
 		
-		Set<String> hs = new HashSet<>();
+		Set<String> hs = new HashSet<String>();
 		hs.addAll(tmpCleanCLD);
 		
 		tmpCleanCLD.clear();

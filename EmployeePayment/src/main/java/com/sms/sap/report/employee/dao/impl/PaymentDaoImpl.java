@@ -53,7 +53,7 @@ public class PaymentDaoImpl implements PaymentDao{
 	}
 
 	public List<Payment> getPaymentReport(String date) {
-		List<Payment> payments = new ArrayList<>();
+		List<Payment> payments = new ArrayList<Payment>();
 		
 		/*
 		Connection connection = null;
